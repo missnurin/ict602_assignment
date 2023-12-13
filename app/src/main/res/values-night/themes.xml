@@ -1,0 +1,15 @@
+<!--
+  ~ /**
+  ~ * Created by Prada Calculator on 10/12/2023, 4:03 pm
+  ~ * Copyright(c) $today.year.All rights reserved.
+  ~ * Last modified 10/12/2023, 10:17 am
+  ~ */
+  -->
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Projectzakat" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+</resources>

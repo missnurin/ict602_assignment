@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /**
+  ~ * Created by Swift Harmony  on 10/12/2023, 4:03 pm
+  ~ * Copyright(c) $today.year.All rights reserved.
+  ~ * Last modified 10/12/2023, 3:20 pm
+  ~ */
+  -->
+
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="my_light_primarydark">#BD9138</color>
+    <color name="my_light_primary">#DFBC76</color>
+
+
+</resources>

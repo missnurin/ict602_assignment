@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /**
+  ~ * Created by Prada Calculator on 10/12/2023, 4:03 pm
+  ~ * Copyright(c) $today.year.All rights reserved.
+  ~ * Last modified 10/12/2023, 10:26 am
+  ~ */
+  -->
+
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="?attr/actionModeShareDrawable"
+        android:title="Share"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/item_about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="About Us" />
+</menu>

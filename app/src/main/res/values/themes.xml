@@ -1,0 +1,20 @@
+<!--
+  ~ /**
+  ~ * Created by Prada Calculator on 10/12/2023, 4:03 pm
+  ~ * Copyright(c) $today.year.All rights reserved.
+  ~ * Last modified 10/12/2023, 10:41 am
+  ~ */
+  -->
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Projectzakat" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimaryDark">@color/my_light_primarydark</item>
+        <item name="colorPrimary">@color/my_light_primary</item>
+        <item name="android:textColorPrimary">@color/white</item>
+
+    </style>
+
+    <style name="Theme.Projectzakat" parent="Base.Theme.Projectzakat" />
+</resources>

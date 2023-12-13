@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ /**
+  ~ * Created by Swift Harmony on 10/12/2023, 4:03 pm
+  ~ * Copyright(c) $today.year.All rights reserved.
+  ~ * Last modified 10/12/2023, 2:54 pm
+  ~ */
+  -->
+
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/alegreya</item>
+    </array>
+</resources>
