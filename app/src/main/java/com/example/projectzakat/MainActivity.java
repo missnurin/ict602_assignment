@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             tvGoldPay.setText("Total Gold Value Zakat Payable: RM" + zPay);
             tvTotZakat.setText("Total Zakat: RM " + totZ);
         } catch (NumberFormatException e) {
-            Toast.makeText(MainActivity.this, "Fill the number properly", Toast.LENGTH_SHORT).show();
+            Toast.makeText(MainActivity.this, "ERROR: Value required. Please provide a valid input!", Toast.LENGTH_SHORT).show();
         }
     }
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if(item.getItemId() == R.id.item_share){
             Intent shareIntent = new Intent(Intent.ACTION_SEND);
             shareIntent.setType("text/plain");
-            shareIntent.putExtra(Intent.EXTRA_TEXT,"Please use my application - https://t.co.app");
+            shareIntent.putExtra(Intent.EXTRA_TEXT,"Please visit my github - https://github.com/missnurin/ict602_assignment");
             startActivity(Intent.createChooser(shareIntent,null));
 
             return true;
