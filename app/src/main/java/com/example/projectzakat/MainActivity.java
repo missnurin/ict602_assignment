@@ -26,11 +26,13 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     Toolbar myToolbar;
+    //radiogroup
     RadioGroup radioGroup;
     RadioButton radioButton;
     Button calcZakat;
     TextView tvTotVal, tvGoldPay, tvTotZakat;
     EditText etWeight, etGoldVal;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
